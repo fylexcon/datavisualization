@@ -1,0 +1,20 @@
+﻿Gün,Kategori,Ürün,Miktar,Fiyat,Toplam fiyat
+Pazartesi,Meyve,Elma,2.0,30.0,60.0
+Pazartesi,Süt Ürünleri,Süt,2.0,50.0,100.0
+Pazartesi,Su,Su,20.0,20.0,400.0
+Salı,Sebze,Domates,1.5,30.0,45.0
+Salı,Et,Tavuk,1.0,120.0,120.0
+Salı,Oyuncak,Oyuncak Araba,3.0,100.0,300.0
+Çarşamba,Meyve,Muz,1.0,80.0,80.0
+Çarşamba,Kahvaltılık,Peynir,0.5,90.0,45.0
+Perşembe,Sebze,Salatalık,1.0,40.0,40.0
+Perşembe,Kuru Gıda,Makarna,2.0,35.0,70.0
+Perşembe,Süt Ürünleri,Süt,1.0,50.0,50.0
+Cuma,Et,Kıyma,1.0,160.0,160.0
+Cuma,Meyve,Portakal,2.0,35.0,70.0
+Cumartesi,Süt Ürünleri,Yoğurt,1.0,65.0,65.0
+Cumartesi,Atıştırmalık,Çikolata,3.0,30.0,90.0
+Cumartesi,Oyuncak,Maket,1.0,500.0,500.0
+Pazar,Sebze,Patates,3.0,25.0,75.0
+Pazar,Kuru Gıda,Pirinç,2.0,55.0,110.0
+Pazar,Su,Su,0.5,20.0,10.0
