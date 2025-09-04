@@ -4,20 +4,20 @@ import numpy as np
 
 df=pd.read_csv('shopping_list.csv')
 df['Fiyat']=df['Fiyat'].astype(float)
-
 def miktar_to_number(miktar):
     try:
+        miktar = miktar.strip().lower()
         if 'kg' in miktar:
-            return float(miktar.replace('kg', '').strip()) 
+            return float(miktar.replace('kg', ''))
         elif 'lt' in miktar:
-            return float(miktar.replace('lt', '').strip()) 
+            return float(miktar.replace('lt', ''))
         elif 'g' in miktar:
-            return float(miktar.replace('g', '').strip()) / 1000
+            return float(miktar.replace('g', '')) / 1000
         elif 'ml' in miktar:
-            return float(miktar.replace('ml', '').strip()) / 1000
+            return float(miktar.replace('ml', '')) / 1000
         else:
-            return float(miktar.strip())
-    except:
+            return float(miktar)
+    except (ValueError, AttributeError):
         return miktar
 
 df['Miktar']=df['Miktar'].apply(miktar_to_number)
